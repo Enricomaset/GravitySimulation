@@ -18,7 +18,7 @@ $$
 
 ## 2. Distance between two bodies
 
-Consider two bodies, \(i\) and \(j\), with positions
+Consider two bodies, $\(i\)$ and $\(j\)$, with positions
 
 $$
 \mathbf r_i=(x_i,y_i),
@@ -26,7 +26,7 @@ $$
 \mathbf r_j=(x_j,y_j).
 $$
 
-The displacement from body \(i\) to body \(j\) is
+The displacement from body $\(i\)$ to body $\(j\)$ is
 
 $$
 \Delta x=x_j-x_i,
@@ -52,15 +52,15 @@ $$
 
 ## 3. Newton's law of universal gravitation
 
-The magnitude of the gravitational force between bodies \(i\) and \(j\) is
+The magnitude of the gravitational force between bodies $\(i\)$ and $\(j\)$ is
 
 $$
 F_{ij}=G\frac{m_i m_j}{r_{ij}^2},
 $$
 
-where \(G\) is the gravitational constant.
+where $\(G\)$ is the gravitational constant.
 
-The force acting on body \(i\) points from body \(i\) toward body \(j\). The unit vector in this direction is
+The force acting on body $\(i\)$ points from body $\(i\)$ toward body $\(j\)$. The unit vector in this direction is
 
 $$
 \widehat{\mathbf r}_{ij}
@@ -71,7 +71,7 @@ $$
 \right).
 $$
 
-The force vector acting on body \(i\) due to body \(j\) is therefore
+The force vector acting on body $\(i\)$ due to body $\(j\)$ is therefore
 
 $$
 \mathbf F_{ij}
@@ -88,7 +88,7 @@ $$
 \frac{\mathbf r_j-\mathbf r_i}{r_{ij}^3}.
 $$
 
-The power \(r_{ij}^3\) appears because the magnitude of the force contains \(1/r_{ij}^2\), while the unit vector introduces another factor \(1/r_{ij}\).
+The power $\(r_{ij}^3\)$ appears because the magnitude of the force contains $\(1/r_{ij}^2\)$, while the unit vector introduces another factor $\(1/r_{ij}\)$.
 
 ## 4. Acceleration of one body
 
@@ -98,7 +98,7 @@ $$
 \mathbf F_i=m_i\mathbf a_i.
 $$
 
-Thus, the acceleration of body \(i\) produced by body \(j\) is
+Thus, the acceleration of body $\(i\)$ produced by body $\(j\)$ is
 
 $$
 \mathbf a_{ij}
@@ -106,7 +106,7 @@ $$
 =Gm_j\frac{\mathbf r_j-\mathbf r_i}{r_{ij}^3}.
 $$
 
-The mass \(m_i\) cancels out. The acceleration of body \(i\) therefore depends on the mass \(m_j\) of the body producing the gravitational force.
+The mass $\(m_i\)$ cancels out. The acceleration of body $\(i\)$ therefore depends on the mass $\(m_j\)$ of the body producing the gravitational force.
 
 The two components of the acceleration are
 
@@ -145,7 +145,7 @@ $$
 
 ## 5. Extension to \(N\) bodies
 
-In a system containing \(N\) bodies, body \(i\) is attracted by every other body. Its total acceleration is obtained by adding all the individual contributions.
+In a system containing $\(N\)$ bodies, body $\(i\)$ is attracted by every other body. Its total acceleration is obtained by adding all the individual contributions.
 
 For the horizontal component,
 
@@ -169,7 +169,7 @@ $$
 r_{ij}=\sqrt{(x_j-x_i)^2+(y_j-y_i)^2}.
 $$
 
-The condition \(j\ne i\) excludes the body itself from the sum. Otherwise, \(r_{ii}=0\), which would cause a division by zero.
+The condition $\(j\ne i\)$ excludes the body itself from the sum. Otherwise, $\(r_{ii}=0\)$, which would cause a division by zero.
 
 In vector form,
 
@@ -187,9 +187,9 @@ $$
 t_{n+1}=t_n+\Delta t,
 $$
 
-where \(\Delta t\) is the time step.
+where $\(\Delta t\)$ is the time step.
 
-At time \(t_n\), body \(i\) has position, velocity and acceleration
+At time $\(t_n\)$, body $\(i\)$ has position, velocity and acceleration
 
 $$
 (x_i^n,y_i^n),
@@ -281,11 +281,11 @@ $$
 (x_i^{n+1},y_i^{n+1}).
 $$
 
-The position formula uses the velocity at time \(t_n\), exactly as in the calculations above.
+The position formula uses the velocity at time $\(t_n\)$, exactly as in the calculations above.
 
 ## 9. Final equations
 
-For every body \(i\), the acceleration at time \(t_n\) is
+For every body $\(i\)$, the acceleration at time $\(t_n\)$ is
 
 $$
 \boxed{
