@@ -2,9 +2,7 @@
 
 ## 1. Position and velocity
 
-The motion of each body takes place in two dimensions.
-
-The position of body \(i\) is
+The motion of each body takes place in two dimensions. The position of body $\(i\)$ is
 
 $$
 \mathbf r_i=(x_i,y_i),
